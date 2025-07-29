@@ -86,7 +86,7 @@ Telegram Grabber v3.0 - это продвинутое решение для:
 ## 💰 Поддержать проект
 
 Если вам нравится наш проект, вы можете поддержать его развитие:
-- **TRC-20**: TKnv1JGiMuQKi3vLgZrXDN8oKYLqEx1xt7
+- **TRC-20**: TM5p6a6vuj9r2o4UwiSfMyhPdzZvxepTDR
 - Подписка на [Pro-версию](https://t.me/mygrab_tg)
 
 Ваша поддержка помогает нам делать продукт лучше!
