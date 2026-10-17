@@ -1,0 +1,21 @@
+# Tested on CPython 3.11 x64 / Windows. Local addon.py is included.
+aiogram==2.25.1
+aiohttp==3.8.6
+aiosignal==1.4.0
+async-timeout==4.0.3
+attrs==26.1.0
+Babel==2.9.1
+certifi==2026.7.22
+charset-normalizer==3.5.2
+frozenlist==1.8.0
+idna==3.20
+magic-filter==1.0.12
+multidict==6.9.1
+propcache==0.5.4
+pyaes==1.6.1
+pyasn1==0.6.4
+pytz==2026.5
+rsa==4.9.1
+Telethon==1.40.0
+typing_extensions==4.16.0
+yarl==1.25.1
