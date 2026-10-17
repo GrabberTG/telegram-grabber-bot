@@ -2,11 +2,11 @@
 
 **Русский** · [English](README.en.md)
 
-[![Release](https://img.shields.io/github/v/release/GrabberTG/telegram-grabber-bot?label=release)](https://github.com/GrabberTG/telegram-grabber-bot/releases/latest) [![Downloads](https://img.shields.io/github/downloads/GrabberTG/telegram-grabber-bot/total?label=downloads)](https://github.com/GrabberTG/telegram-grabber-bot/releases) [![Stars](https://img.shields.io/github/stars/GrabberTG/telegram-grabber-bot?style=social)](https://github.com/GrabberTG/telegram-grabber-bot/stargazers)
+[![Release](https://img.shields.io/github/v/release/GrabberTG/telegram-grabber-bot?label=release)](https://github.com/GrabberTG/telegram-grabber-bot/releases/latest) [![Downloads](https://img.shields.io/github/downloads/GrabberTG/telegram-grabber-bot/total?label=downloads)](https://github.com/GrabberTG/telegram-grabber-bot/releases) [![Stars](https://img.shields.io/github/stars/GrabberTG/telegram-grabber-bot?label=stars&color=blue)](https://github.com/GrabberTG/telegram-grabber-bot/stargazers)
 
 **MyGrab Free** — бесплатный Telegram Grabber для автоматической пересылки сообщений между Telegram-каналами. Копируйте текст, фотографии, видео и альбомы, заменяйте ссылки и упоминания, подтверждайте посты перед публикацией.
 
-**[⬇ Скачать Free для Windows](https://github.com/GrabberTG/telegram-grabber-bot/releases/latest/download/MyGrab_Free_Windows.zip)** · **[MyGrab Premium](https://t.me/every_manager)** · **[Канал проекта](https://t.me/mygrab_tg)**
+**[⬇ Скачать Free для Windows](https://github.com/GrabberTG/telegram-grabber-bot/releases/latest/download/MyGrab_Free_Windows.zip)** · **[MyGrab Premium от 490 ₽/мес](https://t.me/mygrab_premium_bot)** · **[Канал проекта](https://t.me/mygrab_tg)**
 
 ![MyGrab — автопостинг в Telegram, репосты, фильтры и модерация в Premium](assets/mygrab-premium.png)
 
@@ -114,7 +114,7 @@ Copy-Item config.example.json config.json
 |---|---|---|
 | Текст, фото, видео и альбомы | Да | Да |
 | Соответствия каналов | Один получатель на источник | Несколько получателей на источник |
-| Замена ссылок и `@username` | По одному общему значению в `config.json` | Общие значения через меню бота |
+| Замена ссылок и `@username` | По одному общему значению в `config.json` | Общие значения и любые пары «слово → слово», «ссылка → ссылка», шаблоны — через меню бота |
 | Предварительная модерация | Да | Да |
 | Обычные эмодзи | Да | Да |
 | **Сохранение кастомных эмодзи через доработанный `addon`** | Стандартный Unicode-символ вместо кастомного оформления | **Да** |
@@ -161,11 +161,21 @@ Copy-Item config.example.json config.json
 
 ## Купить MyGrab Premium
 
-**4 000 ₽ — разовая покупка текущей Premium-сборки.** Возможна **оплата в криптовалюте по согласованию**. Валюта, сеть, сумма и реквизиты согласуются лично до оплаты; общедоступного платёжного адреса в коде нет.
+Premium — готовая программа для Windows 10/11 (Python не нужен) по подписке. Обновления включены.
 
-Условия установки, поддержки и будущих обновлений уточняются перед покупкой.
+| Срок | Цена |
+|---|---|
+| 1 месяц | 490 ₽ |
+| 3 месяца | 1 290 ₽ |
+| 12 месяцев | 3 990 ₽ |
 
-**[Купить или задать вопрос: @every_manager](https://t.me/every_manager)** · **[Новости и обновления: @mygrab_tg](https://t.me/mygrab_tg)**
+1. Откройте бота **[@mygrab_premium_bot](https://t.me/mygrab_premium_bot)** — он пришлёт программу.
+2. Запустите `КОД КОМПЬЮТЕРА.bat` и отправьте код боту.
+3. Оплатите картой или криптовалютой — реквизиты пришлёт менеджер. Ключ придёт в бота после проверки оплаты.
+
+Ключ привязан к одному компьютеру; продление добавляет дни к текущему сроку. **Исходный код Premium целиком — 20 000 ₽.** Индивидуальная доработка — по договорённости.
+
+**[Купить подписку: @mygrab_premium_bot](https://t.me/mygrab_premium_bot)** · **[Вопросы или бот не отвечает: @every_manager](https://t.me/every_manager)** · **[Новости: @mygrab_tg](https://t.me/mygrab_tg)**
 
 ## Проверка и сохранение данных
 

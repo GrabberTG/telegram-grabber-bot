@@ -2,11 +2,11 @@
 
 [Русский](README.md) · **English**
 
-[![Release](https://img.shields.io/github/v/release/GrabberTG/telegram-grabber-bot?label=release)](https://github.com/GrabberTG/telegram-grabber-bot/releases/latest) [![Downloads](https://img.shields.io/github/downloads/GrabberTG/telegram-grabber-bot/total?label=downloads)](https://github.com/GrabberTG/telegram-grabber-bot/releases) [![Stars](https://img.shields.io/github/stars/GrabberTG/telegram-grabber-bot?style=social)](https://github.com/GrabberTG/telegram-grabber-bot/stargazers)
+[![Release](https://img.shields.io/github/v/release/GrabberTG/telegram-grabber-bot?label=release)](https://github.com/GrabberTG/telegram-grabber-bot/releases/latest) [![Downloads](https://img.shields.io/github/downloads/GrabberTG/telegram-grabber-bot/total?label=downloads)](https://github.com/GrabberTG/telegram-grabber-bot/releases) [![Stars](https://img.shields.io/github/stars/GrabberTG/telegram-grabber-bot?label=stars&color=blue)](https://github.com/GrabberTG/telegram-grabber-bot/stargazers)
 
 **MyGrab Free** is a free Telegram grabber for automatically copying messages between Telegram channels. Repost text, photos, videos and albums, replace links and mentions, and review posts before publication.
 
-**[⬇ Download Free for Windows](https://github.com/GrabberTG/telegram-grabber-bot/releases/latest/download/MyGrab_Free_Windows.zip)** · **[Get MyGrab Premium](https://t.me/every_manager)** · **[Project channel](https://t.me/mygrab_tg)**
+**[⬇ Download Free for Windows](https://github.com/GrabberTG/telegram-grabber-bot/releases/latest/download/MyGrab_Free_Windows.zip)** · **[Get MyGrab Premium](https://t.me/mygrab_premium_bot)** · **[Project channel](https://t.me/mygrab_tg)**
 
 ![MyGrab — Telegram auto reposting, channel messages, filters and moderation in Premium](assets/mygrab-premium.png)
 
@@ -114,7 +114,7 @@ Configure a technical channel and enable moderation in the menu. The prepared po
 |---|---|---|
 | Text, photos, videos and albums | Yes | Yes |
 | Channel routing | One destination per source | Multiple destinations per source |
-| Link and `@username` replacement | One common value each in `config.json` | Common values managed through the bot menu |
+| Link and `@username` replacement | One common value each in `config.json` | Common values plus any word → word, link → link and wildcard rules in the bot menu |
 | Pre-publication moderation | Yes | Yes |
 | Standard emoji | Yes | Yes |
 | **Preserving custom emoji through the customized `addon`** | Standard Unicode fallback | **Yes** |
@@ -161,11 +161,21 @@ The program runs on your computer; your keys and session are never sent anywhere
 
 ## Buy MyGrab Premium
 
-**RUB 4,000 — one-time purchase of the current Premium build. Cryptocurrency payments are available by agreement.** Confirm the currency, network, amount and payment details privately before paying. No public payment wallet is embedded in the code.
+Premium is a ready-to-run Windows 10/11 program (no Python required) sold as a subscription. Updates are included.
 
-Installation assistance, support and future update terms are agreed before purchase.
+| Term | Price |
+|---|---|
+| 1 month | RUB 490 |
+| 3 months | RUB 1,290 |
+| 12 months | RUB 3,990 |
 
-**[Contact @every_manager](https://t.me/every_manager)** · **[Project news: @mygrab_tg](https://t.me/mygrab_tg)**
+1. Open **[@mygrab_premium_bot](https://t.me/mygrab_premium_bot)** — it sends you the program.
+2. Run `КОД КОМПЬЮТЕРА.bat` (machine code) and send the code to the bot.
+3. Pay by card or cryptocurrency — the manager sends payment details. The key arrives in the bot once payment is confirmed.
+
+A key is bound to one computer; renewals add days to the current term. **Full Premium source code — RUB 20,000.** Custom development by agreement.
+
+**[Subscribe: @mygrab_premium_bot](https://t.me/mygrab_premium_bot)** · **[Questions or bot offline: @every_manager](https://t.me/every_manager)** · **[News: @mygrab_tg](https://t.me/mygrab_tg)**
 
 ## Checks and backups
 
