@@ -2,9 +2,11 @@
 
 [Русский](README.md) · **English**
 
+[![Release](https://img.shields.io/github/v/release/GrabberTG/telegram-grabber-bot?label=release)](https://github.com/GrabberTG/telegram-grabber-bot/releases/latest) [![Downloads](https://img.shields.io/github/downloads/GrabberTG/telegram-grabber-bot/total?label=downloads)](https://github.com/GrabberTG/telegram-grabber-bot/releases) [![Stars](https://img.shields.io/github/stars/GrabberTG/telegram-grabber-bot?style=social)](https://github.com/GrabberTG/telegram-grabber-bot/stargazers)
+
 **MyGrab Free** is a free Telegram grabber for automatically copying messages between Telegram channels. Repost text, photos, videos and albums, replace links and mentions, and review posts before publication.
 
-**[Download Free for Windows](https://github.com/GrabberTG/telegram-grabber-bot/raw/main/main.rar)** · **[Get MyGrab Premium](https://t.me/every_manager)** · **[Project channel](https://t.me/mygrab_tg)**
+**[⬇ Download Free for Windows](https://github.com/GrabberTG/telegram-grabber-bot/releases/latest/download/MyGrab_Free_Windows.zip)** · **[Get MyGrab Premium](https://t.me/every_manager)** · **[Project channel](https://t.me/mygrab_tg)**
 
 ![MyGrab — Telegram auto reposting, channel messages, filters and moderation in Premium](assets/mygrab-premium.png)
 
@@ -24,9 +26,11 @@
 
 Project promotion appears in the welcome message, help and management menu. **No promotional footer is added to reposted content.** Joining the project channel is optional.
 
+> ⭐ **If MyGrab helps you, [give it a star](https://github.com/GrabberTG/telegram-grabber-bot)** (the Star button at the top). It helps others find the project.
+
 ## Windows installation — no Python required
 
-1. Download **[main.rar](https://github.com/GrabberTG/telegram-grabber-bot/raw/main/main.rar)** and extract the complete archive into a new permanent folder. Keep `_internal` next to `main.exe`.
+1. Download **[MyGrab_Free_Windows.zip](https://github.com/GrabberTG/telegram-grabber-bot/releases/latest/download/MyGrab_Free_Windows.zip)** from the [latest release](https://github.com/GrabberTG/telegram-grabber-bot/releases/latest) and extract the complete archive into a new permanent folder (right-click → Extract All). Keep `_internal` next to `main.exe`.
 2. Run **`1_setup.bat`** to open `config.json`. Enter your own credentials using the table below, then save.
 3. Run **`2_authorize.bat`**. Enter your Telegram account's phone number, login code and two-step verification password if enabled. Do not run another copy at the same time.
 4. Close the authorization window and run **`3_start.bat`**.
@@ -122,6 +126,38 @@ Configure a technical channel and enable moderation in the menu. The prepared po
 | External MTProto/HTTP proxy configuration | No | Yes |
 
 Premium uses the customized `addon` module for formatting and custom emoji. Sending a particular custom emoji also depends on Telegram account capabilities and restrictions. Free keeps the standard Unicode symbol. Updates are installed manually in both editions.
+
+## FAQ
+
+### What is a Telegram grabber?
+A program that automatically copies new posts from selected Telegram channels into your own channels. MyGrab is a free, open-source grabber: auto posting, reposting without the "Forwarded from" label, link replacement and moderation.
+
+### How do I automatically repost from someone else's channel to mine?
+Your account must be a member of the source channel and be allowed to post in your channel. Add the source and the destination in the bot menu and link them. New posts are copied automatically while the program runs.
+
+### Can I copy a private channel?
+Yes, if your account is a member of it. If the channel owner restricted saving content, Telegram may refuse to send its media.
+
+### Will posts show "Forwarded from"?
+No. Each post is published by your channel as a new message, with no link to the source. Links and `@username` can be replaced with yours.
+
+### Do I need to be an admin of the source channel?
+No. Your account only needs to be subscribed to the source. Posting rights are required only in your destination channels.
+
+### Is it free?
+Yes. MyGrab Free is free, with no subscription and no ads added to your posts. Advanced features are in [Premium](#buy-mygrab-premium).
+
+### Do I need a server or VPS?
+No. A Windows computer running the program is enough. For 24/7 operation use a Windows VPS or run the Python source.
+
+### How do I copy old posts of a channel?
+Use `/last_messages` — see [Copy Telegram channel history](#copy-telegram-channel-history).
+
+### My antivirus flags main.exe. Is it a virus?
+No. Antivirus software sometimes falsely flags programs built with PyInstaller. The full source code is in this repository; if in doubt, run it from the Python source.
+
+### Is it safe for my account?
+The program runs on your computer; your keys and session are never sent anywhere. Telegram may limit very frequent sending, so avoid copying huge archives without pauses.
 
 ## Buy MyGrab Premium
 

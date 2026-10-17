@@ -24,9 +24,10 @@ from core import Engine, Store
 from i18n import COPY
 from settings import app_root, load_config
 
-VERSION = 'Free 2026.10.17'
+VERSION = 'Free 2026.10.17.1'
 CHANNEL_URL = 'https://t.me/mygrab_tg'
 PREMIUM_URL = 'https://t.me/every_manager'
+GITHUB_URL = 'https://github.com/GrabberTG/telegram-grabber-bot'
 log = logging.getLogger('mygrab')
 
 
@@ -87,6 +88,7 @@ class Application:
             k.add(InlineKeyboardButton(self.tr(name), callback_data=name))
         k.row(InlineKeyboardButton(self.tr('premium'), url=PREMIUM_URL),
               InlineKeyboardButton('@mygrab_tg', url=CHANNEL_URL))
+        k.add(InlineKeyboardButton('⭐ GitHub', url=GITHUB_URL))
         return k
 
     async def reply(self, target, text, **kwargs):

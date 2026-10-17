@@ -276,6 +276,16 @@ class FreeTests(unittest.IsolatedAsyncioTestCase):
         self.assertIn('@every_manager', text)
         self.assertNotIn('my_grab', text)
 
+    async def test_menu_and_texts_invite_github_star(self):
+        from i18n import COPY
+        for language in ['ru', 'en']:
+            for key in ['welcome', 'help']:
+                self.assertIn('github.com/GrabberTG/telegram-grabber-bot', COPY[language][key])
+        buttons = [b for row in self.app.keyboard().inline_keyboard for b in row]
+        self.assertIn(main.GITHUB_URL, [b.url for b in buttons])
+        await self.engine.handle(A, [post(text='Plain')])
+        self.assertNotIn('github', self.client.send_message.await_args.args[1])
+
     async def test_both_languages_have_identical_keys(self):
         from i18n import COPY
         self.assertEqual(COPY['en'].keys(), COPY['ru'].keys())
