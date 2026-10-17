@@ -4,7 +4,7 @@
 
 **MyGrab Free** is a free Telegram grabber for automatically copying messages between Telegram channels. Repost text, photos, videos and albums, replace links and mentions, and review posts before publication.
 
-**[Download Free for Windows](main.rar)** · **[Get MyGrab Premium](https://t.me/every_manager)** · **[Project channel](https://t.me/mygrab_tg)**
+**[Download Free for Windows](https://github.com/GrabberTG/telegram-grabber-bot/raw/main/main.rar)** · **[Get MyGrab Premium](https://t.me/every_manager)** · **[Project channel](https://t.me/mygrab_tg)**
 
 ![MyGrab — Telegram auto reposting, channel messages, filters and moderation in Premium](assets/mygrab-premium.png)
 
@@ -26,7 +26,7 @@ Project promotion appears in the welcome message, help and management menu. **No
 
 ## Windows installation — no Python required
 
-1. Download **[main.rar](main.rar)** and extract the complete archive into a new permanent folder. Keep `_internal` next to `main.exe`.
+1. Download **[main.rar](https://github.com/GrabberTG/telegram-grabber-bot/raw/main/main.rar)** and extract the complete archive into a new permanent folder. Keep `_internal` next to `main.exe`.
 2. Run **`1_setup.bat`** to open `config.json`. Enter your own credentials using the table below, then save.
 3. Run **`2_authorize.bat`**. Enter your Telegram account's phone number, login code and two-step verification password if enabled. Do not run another copy at the same time.
 4. Close the authorization window and run **`3_start.bat`**.

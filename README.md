@@ -4,7 +4,7 @@
 
 **MyGrab Free** — бесплатный Telegram Grabber для автоматической пересылки сообщений между Telegram-каналами. Копируйте текст, фотографии, видео и альбомы, заменяйте ссылки и упоминания, подтверждайте посты перед публикацией.
 
-**[Скачать Free для Windows](main.rar)** · **[MyGrab Premium](https://t.me/every_manager)** · **[Канал проекта](https://t.me/mygrab_tg)**
+**[Скачать Free для Windows](https://github.com/GrabberTG/telegram-grabber-bot/raw/main/main.rar)** · **[MyGrab Premium](https://t.me/every_manager)** · **[Канал проекта](https://t.me/mygrab_tg)**
 
 ![MyGrab — автопостинг в Telegram, репосты, фильтры и модерация в Premium](assets/mygrab-premium.png)
 
@@ -26,7 +26,7 @@
 
 ## Установка Free для Windows — без Python
 
-1. Скачайте **[main.rar](main.rar)** и распакуйте целиком в новую постоянную папку. Рядом с `main.exe` должна остаться папка `_internal`.
+1. Скачайте **[main.rar](https://github.com/GrabberTG/telegram-grabber-bot/raw/main/main.rar)** и распакуйте целиком в новую постоянную папку. Рядом с `main.exe` должна остаться папка `_internal`.
 2. Запустите **`1_setup.bat`**: откроется `config.json`. Заполните свои данные по таблице ниже и сохраните файл.
 3. Запустите **`2_authorize.bat`**. Введите телефон аккаунта, код Telegram и пароль двухэтапной проверки, если он включён. Не держите одновременно открытым другой экземпляр этой программы.
 4. Закройте окно авторизации и запустите **`3_start.bat`**.
