@@ -36,7 +36,7 @@ Project promotion appears in the welcome message, help and management menu. **No
 4. Close the authorization window and run **`3_start.bat`**.
 5. Open your bot and send `/start` from the owner's account.
 
-The executable includes Python and its libraries. A system-wide Python installation is not required for this package. The binary targets **Windows x64**.
+Archive check: [VirusTotal](https://www.virustotal.com/gui/file/ed4352837c8796202bd97ccb1545d0723466301c248296ac0d98d462ea4d6787) · SHA-256 in [`SHA256SUMS.txt`](SHA256SUMS.txt). The executable includes Python and its libraries. A system-wide Python installation is not required for this package. The binary targets **Windows x64**.
 
 ## Run the Python source
 
@@ -154,7 +154,7 @@ No. A Windows computer running the program is enough. For 24/7 operation use a W
 Use `/last_messages` — see [Copy Telegram channel history](#copy-telegram-channel-history).
 
 ### My antivirus flags main.exe. Is it a virus?
-No. Antivirus software sometimes falsely flags programs built with PyInstaller. The full source code is in this repository; if in doubt, run it from the Python source.
+No. Antivirus software sometimes falsely flags programs built with PyInstaller. The full source code is in this repository. [VirusTotal report](https://www.virustotal.com/gui/file/ed4352837c8796202bd97ccb1545d0723466301c248296ac0d98d462ea4d6787) for the release archive: 1 of 66 — a Zillya heuristic; the other 65 engines found nothing. If in doubt, run it from the Python source.
 
 ### Is it safe for my account?
 The program runs on your computer; your keys and session are never sent anywhere. Telegram may limit very frequent sending, so avoid copying huge archives without pauses.
