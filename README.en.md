@@ -2,7 +2,7 @@
 
 [Русский](README.md) · **English**
 
-[![Release](https://img.shields.io/github/v/release/GrabberTG/telegram-grabber-bot?label=release)](https://github.com/GrabberTG/telegram-grabber-bot/releases/latest) [![Downloads](https://img.shields.io/github/downloads/GrabberTG/telegram-grabber-bot/total?label=downloads)](https://github.com/GrabberTG/telegram-grabber-bot/releases) [![Stars](https://img.shields.io/github/stars/GrabberTG/telegram-grabber-bot?label=stars&color=blue)](https://github.com/GrabberTG/telegram-grabber-bot/stargazers)
+[![Release](https://img.shields.io/badge/release-v2026.10.17.1-blue)](https://github.com/GrabberTG/telegram-grabber-bot/releases/latest) [![Downloads](https://img.shields.io/github/downloads/GrabberTG/telegram-grabber-bot/total?label=downloads)](https://github.com/GrabberTG/telegram-grabber-bot/releases) [![Stars](https://img.shields.io/github/stars/GrabberTG/telegram-grabber-bot?label=stars&color=blue)](https://github.com/GrabberTG/telegram-grabber-bot/stargazers)
 
 **MyGrab Free** is a free Telegram grabber for automatically copying messages between Telegram channels. Repost text, photos, videos and albums, replace links and mentions, and review posts before publication.
 
